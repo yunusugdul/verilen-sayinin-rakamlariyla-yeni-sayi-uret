@@ -1,0 +1,16 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+body{
+    background-color:rgb(255, 160, 43) ;
+    font-family: 'Tektur', cursive;
+    
+}
+
+.container-fluid{
+    padding-top: 8rem ;
+}

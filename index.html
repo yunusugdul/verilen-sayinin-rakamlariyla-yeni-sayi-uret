@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script&family=Domine:wght@400;700&family=Handlee&family=Lobster&family=Lumanosimo&family=Oswald:wght@300;500&family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container-fluid h-100 d-flex align-items-center flex-column">
+        <h5 class="mb-4 text-white fw-bold">Verilen sayının rakamlarını kullanarak en yakın büyük sayıyı üret</h5>
+        <form id="myform">
+            <div class="col-12 d-flex">
+                <input type="text" class="form-control me-1" id="sayiInput" placeholder="Sayı Giriniz: 1234">
+                <button type="submit" class="btn btn-success">Gönder</button>
+            </div>
+        </form>
+        <p id="girilen" class="mt-5 text-center  text-white fw-bold fs-5">Girdiğiniz sayı: <span id="girilenSayi"></span></p>
+        <p id="yeni" class=" text-center  text-white fw-bold fs-5">Yeni sayı: <span id="yeniSayi"></span></p>
+    </div>
+    <div class="toast align-items-center position-fixed top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Lütfen Bir sayı giriniz!
+          </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+   <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
